@@ -87,11 +87,13 @@ html {
 }
 
 .about-heading {
-	margin-top: 50px;
+	margin-top: 100px;
+  font-size: 3em;
 }
 
 .profiles {
-	margin: 50px 0px;
+	margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 #profile-one p, #profile-two p, #profile-three p {
@@ -121,8 +123,14 @@ html {
   -o-background-size: cover;
 }
 
+.services-heading {
+  margin-top: 60px;
+  font-size: 3em;
+}
+
 .services-list {
   margin-top: 50px;
+  margin-bottom: 60px;
   font-size: 1.8em;
 }
 
@@ -142,7 +150,8 @@ html {
 /*Testimonials Section*/
 
 .testimonial-heading {
-  margin-top: 50px;
+  margin-top: 100px;
+  font-size: 3em;
 }
 
 #testimonial-one p, #testimonial-two p, #testimonial-three p {
@@ -179,6 +188,8 @@ html {
 
 .contact-heading {
   text-shadow: 2px 2px 4px #000000;
+  font-size: 3em;
+  margin-top: 60px;
 }
 
 #contact-form {
@@ -195,6 +206,10 @@ html {
 
 #address {
   text-shadow: 2px 2px 4px #000000;
+}
+
+#map-section {
+  margin-bottom: 60px;
 }
 
 @media (max-width: 991px) {
