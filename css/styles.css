@@ -27,7 +27,25 @@ html {
 /*Navbar*/
 
 .navbar {
-  font-size: 1.4em;
+  font-size: 1.6em;
+}
+
+.navbar-right {
+  margin-top: 10px;
+}
+
+/*Navbar Img*/
+
+.navbar-brand {
+  padding: 0px; /* firefox bug fix */
+  height: 70px;
+}
+
+.navbar-brand > img {
+  height: 100%;
+  margin-top: 1px;
+  margin-left: 2px;
+  width: auto;
 }
 
 /*Intro*/
