@@ -105,6 +105,7 @@ html {
 
 #profileImg {
 	height: 220px;
+  border: 3px solid white;
 }
 
 .about-heading {
