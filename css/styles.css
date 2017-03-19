@@ -227,6 +227,12 @@ html {
   margin-bottom: 50px;
 }
 
+.hours-disclaimer {
+  color: #edd145;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
 #contact-form {
   margin-top: 30px;
 }
