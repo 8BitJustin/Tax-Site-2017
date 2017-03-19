@@ -103,30 +103,34 @@ html {
 
 /*About Us (profiles)*/
 
-#profileImg {
-	height: 220px;
-  border: 3px solid white;
-}
-
 .about-heading {
-	margin-top: 100px;
+  margin-top: 100px;
   font-size: 3em;
 }
 
-.profiles {
-	margin-top: 50px;
-  margin-bottom: 100px;
+#profile-one-img, #profile-two-img, #profile-three-img, #profile-four-img {
+  height: 260px;
+  border: 10px solid white;
 }
 
-#profile-one p, #profile-two p, #profile-three p {
-  font-size: 1.2em;
+#profile-five-img, #profile-six-img, #profile-seven-img {
+	height: 220px;
+  border: 10px solid white;
+}
+
+.profile-top, .profile-mid, .profile-bot {
+	margin-top: 50px;
+}
+
+.profile-bot {
+  margin-bottom: 100px;
 }
 
 @media (max-width: 991px) {
   #profileImg {
     height: 170px;
   }
-  #profile-two, #profile-three {
+  #profile-two, #profile-four, #profile-six, #profile-seven {
     margin-top: 50px;
   }
 }
@@ -182,6 +186,11 @@ html {
 
 #testimonial-one, #testimonial-two {
   border-right: 3px solid white;
+}
+
+.testimonials {
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 @media (max-width: 991px) {
