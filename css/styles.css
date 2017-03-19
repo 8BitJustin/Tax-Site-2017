@@ -180,7 +180,7 @@ html {
   font-size: 3em;
 }
 
-#testimonial-one p, #testimonial-two p, #testimonial-three p {
+/*#testimonial-one p, #testimonial-two p, #testimonial-three p {
   font-size: 1.2em;
 }
 
@@ -200,6 +200,23 @@ html {
 
   #testimonial-one, #testimonial-two {
   border-right: none;
+  }
+}*/
+
+.carousel {
+  color: white;
+  height: 250px; 
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.carousel-caption { /*Super Important, text will not show without it.*/
+    position:static;
+}
+
+@media (max-width: 550px) {
+  .carousel {
+  height: 320px; 
   }
 }
 
