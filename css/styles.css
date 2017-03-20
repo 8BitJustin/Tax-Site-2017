@@ -280,17 +280,47 @@ html {
 /*Footer Section*/
 
 #footer {
-  padding-top: 25px;
-  font-size: 1.4em;
-  text-shadow: 2px 2px 4px #000000;
   background-color: #46396a;
   height: 80px;
 }
 
+.justinLogo {
+  margin-top: 20px;
+}
+
+.justinLogo > img {
+  height: 40px;
+}
+
+.copyright-email {
+  margin-top: 15px;
+}
+
+#copyright {
+  font-size: 1.2em;
+  text-shadow: 2px 2px 4px #000000;
+  margin-bottom: 0px;
+}
+
+#footer-email {
+  font-size: 1.2em;
+  text-shadow: 2px 2px 4px #000000;
+}
+
 @media (max-width: 991px) {
   #footer {
-    padding-top: 20px;
-    font-size: .9em;
-    height: 60px;
+    height: 150px;
+  }
+  .justinLogo {
+    text-align: center;
+  }
+  #copyright, #footer-email {
+    text-align: center;
+  }
+}
+
+@media (max-width: 437px) {
+  #footer {
+    height: 170px;
   }
 }
