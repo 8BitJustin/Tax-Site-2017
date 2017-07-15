@@ -248,6 +248,7 @@ html {
   color: #edd145;
   margin-top: 10px;
   margin-bottom: 30px;
+/*  display: none; Will turn this 'on' when tax season is active */ 
 }
 
 #contact-form {
